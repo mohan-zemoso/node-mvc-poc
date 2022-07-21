@@ -1,0 +1,27 @@
+{
+  "name": "mvc_poc",
+  "version": "1.0.0",
+  "description": "MVC",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohan-zemoso/node-mvc-poc.git"
+  },
+  "author": "Mohan Kumar K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohan-zemoso/node-mvc-poc/issues"
+  },
+  "homepage": "https://github.com/mohan-zemoso/node-mvc-poc#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
